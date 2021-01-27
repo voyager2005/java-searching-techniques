@@ -1,12 +1,4 @@
-package Techsparx.Arrays;
 import java.util.Scanner;
-
-/**
- * Write a description of class binarySearch here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class binarySearch
 {
     public static void main(String args[])
