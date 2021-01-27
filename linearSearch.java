@@ -1,12 +1,4 @@
-package Techsparx.Arrays;
-
 import java.util.Scanner;
-/**
- * Write a description of class linearSearch here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class linearSearch
 {
     public static void main(String args[])
@@ -58,56 +50,3 @@ public class linearSearch
         }
     }
 }
-
-/*
-public class linearSearch
-{
-public static void main(String args[])
-{
-//declaration
-Scanner sc = new Scanner(System.in);
-int n, position, key, a[];
-boolean flag;
-
-//reading the number of array elements
-System.out.println("Enter the number of array elements: ");
-n = sc.nextInt();
-
-//creating an array of size n
-a = new int[n];
-
-//reading the array elements 
-System.out.println("Enter " + n + " array elements");
-for(int i = 0 ; i < n ; i++)
-{
-a[i] = sc.nextInt();
-}
-
-//reading the array element to be found/searched
-System.out.println("Enter th number to be found: ");
-key = sc.nextInt();
-
-//Linear search
-flag = false ; position = 0 ;
-for(int i = 0 ; i < n ; i++)
-{
-if(key == a[i])
-{
-flag = true;
-position = i+1;
-break;
-}
-}
-
-//chccking flag
-if(flag == true)
-{
-System.out.println(key + " is found at position: " + position);
-}   
-else
-{
-System.out.println(key + " is NOT found ");
-}
-}
-}
- */
