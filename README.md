@@ -1,6 +1,6 @@
-# java-searching-techiniques
+# java-searching-techniques
 
-This REPO contains some commonly used array searching techiniques
+This REPO contains some commonly used array searching techniques
 <br />Please ⭐ this repository if you found it helpful so that more people can benifit from this code 😃.
 <br />
 <br />
