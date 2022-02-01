@@ -25,9 +25,9 @@ for(int i = 0 ; i < a.length ; i++)
 
 ## [binary search]
 ```
-while(low <= high)
+while(start <= end)
 {
-  mid = (low + high) / 2;
+  mid = start + ( end - start ) / 2;
             
   if( key == a[mid])
   {
@@ -37,11 +37,11 @@ while(low <= high)
   }
   else if( key < a[mid] ) 
   {
-    high = mid -1 ;
+    end = mid -1 ;
   }
   else if( key > a[mid] )
   {
-    low = mid + 1;
+    start = mid + 1;
   }  
 }
 ```
