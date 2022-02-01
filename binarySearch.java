@@ -35,7 +35,7 @@ public class binarySearch
         //Binary search
         while(low <= high)
         {
-            mid = (low + high) / 2;
+            mid = low + (high - low) / 2;
             
             if( key == a[mid])
             {
